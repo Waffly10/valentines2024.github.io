@@ -23,9 +23,10 @@
 			color: #FF9494;
         }
         .food-item img {
-            width: 220px; 
-            height: auto;
+            width: 500px; 
+            height: 500px;
 			padding: 10px;
+            object-fit: cover;
         }
         .food-item label {
             display: block;
@@ -49,24 +50,25 @@
     
     <div class="food-selection">
         <div class="food-item">
-            <img src="food/dog.jpeg" alt="dog">
+            <img src="food/jonas.jpeg" alt="dog">
             <label><input type="checkbox" name="food" value="Jonas"> Jonas</label>
         </div>
         <div class="food-item">
-            <img src="food/koreanfood.jpeg" alt="koreanfood">
-            <label><input type="checkbox" name="food" value="Jonas poopings"> Jonas but pooping</label>
+            <img src="food/toopid.jpg" alt="koreanfood">
+            <label><input type="checkbox" name="food" value="Jonas poopings"> Jonas but blind</label>
         </div>
         <div class="food-item">
             <img src="food/ramen.jpeg" alt="pasta">
             <label><input type="checkbox" name="food" value="pasta"> pasta</label>
-        </div>
         </div>
         <div class="food-item">
             <img src="food/sushi.jpeg" alt="sushi">
             <label><input type="checkbox" name="food" value="sushi"> sushi</label>
         </div>
     </div>
-    <button class ="button"onclick="location.href='dessert.html'">Continue :D</button>
+    <div>
+        <button class ="button"onclick="location.href='dessert.html'">Continue :D</button>
+    </div>
     
 </body>
 </html>
